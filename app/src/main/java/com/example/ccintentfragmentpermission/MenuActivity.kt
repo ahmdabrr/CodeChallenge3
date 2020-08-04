@@ -20,6 +20,11 @@ class MenuActivity : AppCompatActivity() {
         tvVsPemain.setText(nama+" VS Pemain")
         tvVsCom.setText(nama+" VS Komputer")
 
+        ivVsPemain.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
         ivVsCom.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
