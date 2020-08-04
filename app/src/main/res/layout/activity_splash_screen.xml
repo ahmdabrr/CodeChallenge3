@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashScreenActivity">
+    tools:context=".SplashScreenActivity"
+    android:background="#E3F2FD">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/header1"
@@ -16,14 +17,14 @@
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/header2"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.09"
+        app:layout_constraintGuide_percent="0.12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/header3"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.12"
+        app:layout_constraintGuide_percent="0.2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
@@ -33,10 +34,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:fontFamily="@font/comic"
-        android:textSize="32sp"
+        android:textSize="64sp"
         android:textStyle="bold"
         android:rotation="-12"
-        android:textColor="#FFA726"
+        android:textColor="#FFB74D"
         android:text="Kertas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -46,10 +47,10 @@
         app:layout_constraintTop_toBottomOf="@id/header2"
         app:layout_constraintStart_toStartOf="@id/tvKertas"
         android:fontFamily="@font/comic"
-        android:textSize="32sp"
+        android:textSize="64sp"
         android:textStyle="bold"
         android:rotation="-12"
-        android:textColor="#66BB6A"
+        android:textColor="#81C784"
         android:text="Gunting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -61,10 +62,10 @@
         app:layout_constraintEnd_toEndOf="@id/tvGunting"
         android:layout_marginStart="16dp"
         android:fontFamily="@font/comic"
-        android:textSize="32sp"
+        android:textSize="64sp"
         android:textStyle="bold"
         android:rotation="-12"
-        android:textColor="#AB47BC"
+        android:textColor="#BA68C8"
         android:text="Batu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -73,6 +74,7 @@
         app:layout_constraintTop_toBottomOf="@id/tvBatu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="64dp"
         android:src="@drawable/ic_splash_screen2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
